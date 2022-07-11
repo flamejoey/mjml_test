@@ -1,0 +1,216 @@
+<mjml>
+  <mj-body background-color="#ffffff">
+    <mj-section>
+      <mj-column>
+        <mj-image width="600px" src="desktop.png"></mj-image>
+      </mj-column>
+      </mj-section>
+      <mj-divider width=500px border-width="1px" border-style="solid" border-color="black" />
+
+    
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="left" color="#057623" font-weight="700px" font-size="18px">WHAT'S NEW</mj-text>
+        <mj-divider border-width="2px" border-style="solid" border-color="green" />
+        <mj-image  width="600px" src="image1.png"></mj-image>
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Quis dapibus gravida nunc, rhoncus sit diam </mj-text>
+        <mj-text font-family="Arial" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Eu ut non platea suscipit semper venenatis id. Id nec dui, faucibus dictumst pulvinar morbi diam non nunc.</mj-text>
+        <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
+        <mj-button  background-color="#ffffff" color="#057623" > Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
+        <mj-button  background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-divider width=568px border-width="1px" border-style="solid" border-color="#CCCCCC" />
+
+    <mj-section>  
+     <mj-column> 
+        <mj-image width="274px" src="image2.png">
+     </mj-column> 
+     <mj-column> 
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Egestas sed orci risus tempor pulvinar leo</mj-text>
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Duis a sociis consequat ac amet cras gravida tristique urna. Semper et nunc tellus porta molestie sed ut leo.</mj-text>
+        <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
+        <mj-button  background-color="#ffffff" color="#057623" > Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
+        <mj-button  background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
+        </mj-button>
+     </mj-column>
+    </mj-section>
+    <mj-divider width=568px border-width="1px" border-style="solid" border-color="#CCCCCC" />
+
+    <mj-section>  
+     <mj-column> 
+        <mj-image width="274px" src="image2.png">
+     </mj-column> 
+     <mj-column> 
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Egestas sed orci risus tempor pulvinar leo</mj-text>
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Duis a sociis consequat ac amet cras gravida tristique urna. Semper et nunc tellus porta molestie sed ut leo.</mj-text>
+        <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
+        <mj-button  background-color="#ffffff" color="#057623"> Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
+        <mj-button  background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
+        </mj-button>
+     </mj-column>
+    </mj-section>
+    <mj-divider width=568px border-width="1px" border-style="solid" border-color="#CCCCCC" />
+
+
+    <mj-section>  
+     <mj-column> 
+        <mj-image width="274px" src="image2.png"></mj-image>
+     </mj-column> 
+     <mj-column> 
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Egestas sed orci risus tempor pulvinar leo</mj-text>
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Duis a sociis consequat ac amet cras gravida tristique urna. Semper et nunc tellus porta molestie sed ut leo.</mj-text>
+        <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
+        <mj-button  background-color="#ffffff" color="#057623" > Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
+        <mj-button  background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
+        </mj-button>
+    </mj-section>   
+    <mj-divider width=568px border-width="1px" border-style="solid" border-color="#CCCCCC" />
+
+    <mj-section>  
+     <mj-column> 
+        <mj-image width="274px" src="image2.png">
+     </mj-column> 
+     <mj-column> 
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Egestas sed orci risus tempor pulvinar leo</mj-text>
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Duis a sociis consequat ac amet cras gravida tristique urna. Semper et nunc tellus porta molestie sed ut leo.</mj-text>
+        <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
+        <mj-button  background-color="#ffffff" color="#057623" > Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
+        <mj-button  background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
+        </mj-button>
+     
+     </mj-column>
+     
+    </mj-section>
+    <mj-divider width=568px border-width="1px" border-style="solid" border-color="#CCCCCC" />
+    
+    <mj-section>
+      <mj-column>
+        <mj-text align="left" color="#057623" font-weight="700px" font-size="18px">FROM EXPERTS</mj-text>
+        <mj-divider border-width="2px" border-style="solid" border-color="green" />
+        <mj-image  width="600px" src="image1.png"></mj-image>
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Quis dapibus gravida nunc, rhoncus sit diam </mj-text>
+        <mj-text font-family="Arial" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
+        <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Eu ut non platea suscipit semper venenatis id. Id nec dui, faucibus dictumst pulvinar morbi diam non nunc.</mj-text>
+        <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
+        <mj-button  background-color="#ffffff" color="#057623" > Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
+        <mj-button  background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+      <mj-divider width=568px border-width="1px" border-style="solid" border-color="#CCCCCC" />
+
+    <mj-section>
+        <mj-column>
+            <mj-image src="Image3.png"></mj-image>
+            <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Vehicula etiam non dolor non nunc luctus</mj-text>
+            <mj-text font-family="Arial" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
+            <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Id amet curabitur aenean suspendisse nunc nisl et facilisis. Ac, viverra sagittis aliquam, quam et nullam gravida.</mj-text>
+            <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
+            <mj-button  background-color="#ffffff" color="#057623" > Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
+            <mj-button  background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
+            </mj-button>
+        </mj-column>
+        <mj-column>
+            <mj-image src="Image4.png"></mj-image>
+            <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Feugiat facilisis amet turpis in sit in</mj-text>
+            <mj-text font-family="Arial" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
+            <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Ac volutpat molestie at lorem turpis ornare aliquam non eget. Et duis hac est mi tellus integer.</mj-text>
+            <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
+            <mj-button  background-color="#ffffff" color="#057623" > Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
+            <mj-button  css-class="read_more" background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
+            </mj-button>
+        </mj-column>
+    </mj-section>
+          <mj-divider width=568px border-width="1px" border-style="solid" border-color="#CCCCCC" />
+
+
+    <mj-section>
+        <mj-column>
+            <mj-image src="Image5.png"></mj-image>
+            <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Nec sodales sed id vitae in non</mj-text>
+            <mj-text font-family="Arial" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
+            <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Habitasse felis posuere risus quis mauris pulvinar luctus massa. Mattis lectus quam malesuada lacinia purus.</mj-text>
+            <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
+            <mj-button  background-color="#ffffff" color="#057623" > Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
+            <mj-button  background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
+            </mj-button>
+        </mj-column>
+        <mj-column>
+            <mj-image src="Image6.png"></mj-image>
+            <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Ultricies elementum purus sollicitudin eu faucibus adipiscing</mj-text>
+            <mj-text font-family="Arial" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
+            <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Tempus ut donec egestas consectetur ut tellus ut congue aliquet. Accumsan, sed curabitur elementum, faucibus at.</mj-text>
+            <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
+            <mj-button  background-color="#ffffff" color="#057623" > Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
+            <mj-button  background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
+            </mj-button>
+        </mj-column>
+    </mj-section>
+    <mj-divider width=568px border-width="1px" border-style="solid" border-color="#CCCCCC" />
+
+    <mj-section>
+     <mj-column>
+        <mj-text align=center font-family="Arial" font-style="normal" font-size="17px" >Share This Email With A Friend</mj-text>
+        <mj-text align=center font-family="Inter" font-style="normal" font-size="17px" font-weight="700" color="#057623" text-decoration=underline>Forward</mj-text>
+     </mj-column> 
+      <mj-column >
+       <mj-text align=center font-family="Arial" font-style="normal" font-size="17px" >Receive This Email From A Friend</mj-text>
+        <mj-text align=center font-family="Inter" font-style="normal" font-size="17px" font-weight="700" color="#057623" text-decoration=underline>Subscribe</mj-text>
+     </mj-column>
+      <mj-column>
+        <mj-text align=center font-family="Arial" font-style="normal" font-size="17px" >Trouble viewing this email?</mj-text>
+        <mj-text align=center font-family="Inter" font-style="normal" font-size="17px" font-weight="700" color="#057623" text-decoration=underline>View in browser</mj-text>
+     </mj-column>
+    </mj-section>
+    <mj-divider width=568px border-width="1px" border-style="solid" border-color="#CCCCCC" />
+
+    
+  
+    <mj-section>
+     <mj-column>
+        <mj-text align=center font-weight="700" font-size="17px" >Download the app</mj-text>
+        <mj-image css-class="stores" width="117px" src="Social Icon Link1.png"></mj-image>        
+        <mj-image css-class="stores" width="136px" src="Social Icon Link2.png"></mj-image>
+     </mj-column>
+    </mj-sedction>
+    <mj-divider width=568px border-width="1px" border-style="solid" border-color="#CCCCCC" />
+
+    <mj-section>
+        <mj-column>
+            <mj-text font-family="Arial" font-size="12px" font-weight=400 color="rgba(51, 51, 51, 0.5);">The information in this newsletter is not intended to replace a one-on-one relationship with a qualified health care professional and is not intended as medical advice. It is intended as a sharing of knowledge and information from the research and experience of many experts and journalists. The Epoch Times encourages you to make your own health care decisions based upon your research and in partnership with a qualified health care professional.<br><br>
+                *When sharing an article, giftaccess@TheEpochTimes.com is added to the list of recipients. If your friend is not already a subscriber, we will send them a special link for free access to the article. Manage your email preferences here.
+                <br><br>Copyright © 2022 The Epoch Times. All rights reserved.
+                The Epoch Times. 5 Penn Plaza, 8th FL, New York, NY 10001
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    
+    <mj-section>
+      <mj-column >
+          <mj-text font-family="Inter" font-style=normal font-size="13px" font-weight=400>Terms & Conditons</mj-text>
+      </mj-column>
+      <mj-column>
+          <mj-text font-family="Inter" font-style=normal font-size="13px" font-weight=400>Customer Service</mj-text>
+      </mj-column>
+      <mj-column>
+          <mj-text  font-family="Inter" font-style=normal font-size="13px" font-weight=400>Privacy Policy</mj-text>
+      </mj-column>
+      <mj-column>
+          <mj-text font-family="Inter" font-style=normal font-size="13px" font-weight=400>Unscribe</mj-text>
+      </mj-column>
+    </mj-section>
+    
+
+
+
+    </mj-body>
+</mjml>
