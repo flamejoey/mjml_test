@@ -1,5 +1,18 @@
 <mjml>
+  <mj-head>
+    <mj-attributes>
+        <mj-class name="btn" font-size=14px background-color="#057623" color="#ffffff" border-radius="60px" text-align="center" />
+    </mj-attributes>
+    <mj-style>
+        .rm-btn div {
+            font-weight:700 !important;
+            text-decoration:none !important;
+            color:green !important;
+        }
+    </mj-style>
+  </mj-head>
   <mj-body background-color="#ffffff">
+    <mj-wrapper>
       <mj-section>
         <mj-column width="100%">
           <mj-image width="600px" src="https://www.theepochtimes.com/assets/uploads/2022/06/20/Frame-1-1-1-1.jpg"></mj-image>
@@ -11,7 +24,7 @@
         </mj-column>
       </mj-section>
 
-       <mj-section background-color="#ffffff" padding-top="36px" padding-bottom="16px">
+      <mj-section background-color="#ffffff" padding-top="36px" padding-bottom="0px">
         <mj-column width="100%">
           <mj-text align="left" color="#057623" font-weight="700px" font-size="18px">WHAT'S NEW</mj-text>
           <mj-divider border-width="2px" border-style="solid" border-color="green" />
@@ -19,10 +32,16 @@
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Quis dapibus gravida nunc, rhoncus sit diam </mj-text>
           <mj-text font-family="Arial" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Eu ut non platea suscipit semper venenatis id. Id nec dui, faucibus dictumst pulvinar morbi diam non nunc.</mj-text>
-          <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
-            <mj-button background-color="#ffffff" color="#057623"> Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
-            <mj-button background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
-          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column width="50%">
+        </mj-column>
+        <mj-column width="25%" padding-right="0" padding="0">
+          <mj-button align="right" font-size=14px background-color="#ffffff" color="#057623">Share*</mj-button>
+        </mj-column>
+        <mj-column width="25%">
+          <mj-button font-size=14px background-color="#057623" color="#ffffff" border-radius="60px">Read More</mj-button>
         </mj-column>
       </mj-section>
       <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
@@ -31,85 +50,109 @@
         </mj-column>
       </mj-section>
 
-      <mj-section padding-top="16px">
-        <mj-column width="50%">
-          <mj-image  padding="20px 0 57px 16px"src="https://image.shutterstock.com/image-photo/dragon-fruit-small-size-that-260nw-2107016282.jpg">
+      <mj-section padding="16px">
+        <mj-column>
+          <mj-image  src="https://image.shutterstock.com/image-photo/dragon-fruit-small-size-that-260nw-2107016282.jpg">
         </mj-column>
 
-        <mj-column width="50%">
+        <mj-column>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Egestas sed orci risus tempor pulvinar leo</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Duis a sociis consequat ac amet cras gravida tristique urna. Semper et nunc tellus porta molestie sed ut leo.</mj-text>
-          <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
-            <mj-button background-color="#ffffff" color="#057623"> Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
-            <mj-button background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
-          </mj-button>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
+      <mj-section padding="0">
+        <mj-column width="50%">
+        </mj-column>
+        <mj-column width="25%" padding-right="0" padding="0">
+          <mj-button font-size=14px background-color="#ffffff" color="#057623">Share*</mj-button>
+        </mj-column>
+        <mj-column width="25%" >
+            <mj-button mj-class="btn">Read More</mj-button>       
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-top="0">
         <mj-column width="100%">
           <mj-divider border-color="#DFE3E8" border-width="1px" />
         </mj-column>
       </mj-section>
 
-      <mj-section padding-top="16px">
-        <mj-column width="50%">
-          <mj-image  padding="20px 0 57px 16px"src="https://image.shutterstock.com/image-photo/dragon-fruit-small-size-that-260nw-2107016282.jpg">
+      <mj-section padding="16px">
+        <mj-column>
+          <mj-image src="https://image.shutterstock.com/image-photo/dragon-fruit-small-size-that-260nw-2107016282.jpg">
         </mj-column>
 
-        <mj-column width="50%">
+        <mj-column>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Egestas sed orci risus tempor pulvinar leo</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Duis a sociis consequat ac amet cras gravida tristique urna. Semper et nunc tellus porta molestie sed ut leo.</mj-text>
-          <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
-            <mj-button background-color="#ffffff" color="#057623"> Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
-            <mj-button background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
-          </mj-button>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
+      <mj-section padding="0">
+        <mj-column width="50%">
+        </mj-column>
+        <mj-column width="25%" padding-right="0" >
+          <mj-button  font-size=14px background-color="#ffffff" color="#057623">Share*</mj-button>
+        </mj-column>
+        <mj-column width="25%">
+          <mj-button  font-size=14px background-color="#057623" color="#ffffff" border-radius="60px" text-align="center">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-top="0">
         <mj-column width="100%">
           <mj-divider border-color="#DFE3E8" border-width="1px" />
         </mj-column>
       </mj-section>
 
-      <mj-section padding-top="16px">
-        <mj-column width="50%">
-          <mj-image  padding="20px 0 57px 16px"src="https://image.shutterstock.com/image-photo/dragon-fruit-small-size-that-260nw-2107016282.jpg">
+      <mj-section padding="16px">
+        <mj-column>
+          <mj-image src="https://image.shutterstock.com/image-photo/dragon-fruit-small-size-that-260nw-2107016282.jpg">
         </mj-column>
 
-        <mj-column width="50%">
+        <mj-column>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Egestas sed orci risus tempor pulvinar leo</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Duis a sociis consequat ac amet cras gravida tristique urna. Semper et nunc tellus porta molestie sed ut leo.</mj-text>
-          <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
-            <mj-button background-color="#ffffff" color="#057623"> Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
-            <mj-button background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
-          </mj-button>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
+      <mj-section padding="0">
+        <mj-column width="50%">
+        </mj-column>
+        <mj-column width="25%" padding-right="0">
+          <mj-button  font-size=14px background-color="#ffffff" color="#057623">Share*</mj-button>
+        </mj-column>
+        <mj-column width="25%">
+          <mj-button mj-class="btn">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-top="0">
         <mj-column width="100%">
           <mj-divider border-color="#DFE3E8" border-width="1px" />
         </mj-column>
       </mj-section>
 
-      <mj-section padding-top="16px">
-        <mj-column width="50%">
-          <mj-image  padding="20px 0 57px 16px"src="https://image.shutterstock.com/image-photo/dragon-fruit-small-size-that-260nw-2107016282.jpg">
+      <mj-section padding="16px">
+        <mj-column>
+          <mj-image src="https://image.shutterstock.com/image-photo/dragon-fruit-small-size-that-260nw-2107016282.jpg">
         </mj-column>
 
-        <mj-column width="50%">
+        <mj-column>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Egestas sed orci risus tempor pulvinar leo</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Duis a sociis consequat ac amet cras gravida tristique urna. Semper et nunc tellus porta molestie sed ut leo.</mj-text>
-          <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
-            <mj-button background-color="#ffffff" color="#057623"> Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
-            <mj-button background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
-          </mj-button>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
+      <mj-section padding="0">
+        <mj-column width="50%">
+        </mj-column>
+        <mj-column width="25%" padding-right="0"  padding="0">
+          <mj-button  font-size=14px background-color="#ffffff" color="#057623">Share*</mj-button>
+        </mj-column>
+        <mj-column width="25%">
+          <mj-button mj-class="btn">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-top="0">
         <mj-column width="100%">
           <mj-divider border-color="#DFE3E8" border-width="1px" />
         </mj-column>
@@ -123,17 +166,25 @@
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Quis dapibus gravida nunc, rhoncus sit diam </mj-text>
           <mj-text font-family="Arial" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Eu ut non platea suscipit semper venenatis id. Id nec dui, faucibus dictumst pulvinar morbi diam non nunc.</mj-text>
-          <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
-            <mj-button background-color="#ffffff" color="#057623"> Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
-            <mj-button background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
-          </mj-button>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff"  padding-top="0" padding-bottom="0">
+      <mj-section padding="0">
+        <mj-column width="50%">
+        </mj-column>
+        <mj-column width="25%" padding-right="0" padding="0">
+          <mj-button align="right" font-size=14px background-color="#ffffff" color="#057623">Share*</mj-button>
+        </mj-column>
+        <mj-column width="25%">
+          <mj-button font-size=14px background-color="#057623" color="#ffffff" border-radius="60px">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
         <mj-column width="100%">
           <mj-divider border-color="#DFE3E8" border-width="1px" />
         </mj-column>
       </mj-section>
+        
 
       <mj-section>
         <mj-column width="50%">
@@ -141,19 +192,16 @@
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Vehicula etiam non dolor non nunc luctus</mj-text>
           <mj-text font-family="Arial" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Id amet curabitur aenean suspendisse nunc nisl et facilisis. Ac, viverra sagittis aliquam, quam et nullam gravida.</mj-text>
-          <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
-            <mj-button background-color="#ffffff" color="#057623"> Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
-            <mj-button background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
-          </mj-button>
-        </mj-column>
+          <mj-text><button mj-class="btn" href="#">Share*</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" >Read More</a></mj-text>
+        </mj-column> 
         <mj-column width="50%">
           <mj-image src="https://wgxa.tv/resources/media2/16x9/full/1015/center/80/6c40b14f-2638-48a2-8485-f93d1885d3c1-large16x9_fruitbowl_m1xxOV.jpg"></mj-image>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Feugiat facilisis amet turpis in sit in</mj-text>
           <mj-text font-family="Arial" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Ac volutpat molestie at lorem turpis ornare aliquam non eget. Et duis hac est mi tellus integer.</mj-text>
           <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
-            <mj-button background-color="#ffffff" color="#057623"> Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
-            <mj-button css-class="read_more" background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
+            <mj-button href="#" background-color="#ffffff" color="#057623"> Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
+            <mj-button mj-class="btn" href="#" background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
           </mj-button>
         </mj-column>
       </mj-section>
@@ -170,10 +218,6 @@
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="24px" color="#223435" text-transform=capitalize>Nec sodales sed id vitae in non</mj-text>
           <mj-text font-family="Arial" font-weight="400" font-size="16px" color="#6A6A6A" text-transform=capitalize>By Leo Babauta</mj-text>
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Habitasse felis posuere risus quis mauris pulvinar luctus massa. Mattis lectus quam malesuada lacinia purus.</mj-text>
-          <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
-            <mj-button background-color="#ffffff" color="#057623"> Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
-            <mj-button background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
-          </mj-button>
         </mj-column>
         <mj-column width="50%">
           <mj-image src="https://wgxa.tv/resources/media2/16x9/full/1015/center/80/6c40b14f-2638-48a2-8485-f93d1885d3c1-large16x9_fruitbowl_m1xxOV.jpg"></mj-image>
@@ -182,11 +226,11 @@
           <mj-text font-family='Georgia' font-style="normal" font-weight="400" font-size="18px" color="#333333" text-transform=capitalize>Tempus ut donec egestas consectetur ut tellus ut congue aliquet. Accumsan, sed curabitur elementum, faucibus at.</mj-text>
           <mj-button align="right" background-color="#ffffff" color="#057623" font-size="14px" font-weight=700>
             <mj-button background-color="#ffffff" color="#057623"> Share*&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</mj-button>
-            <mj-button background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
+            <mj-button mj-class="btn" background-color="#057623" color="#057623" font-size="14px" font-weight=700> Read More</mj-button>
           </mj-button>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff"  padding-top="0" padding-bottom="0">
+      <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
         <mj-column width="100%">
           <mj-divider border-color="#DFE3E8" border-width="1px" />
         </mj-column>
@@ -206,32 +250,30 @@
           <mj-text align=center font-family="Inter" font-style="normal" font-size="17px" font-weight="700" color="#057623" text-decoration=underline>View in browser</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff"  padding-top="0" padding-bottom="0">
+      <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
         <mj-column width="100%">
           <mj-divider border-color="#DFE3E8" border-width="1px" />
         </mj-column>
       </mj-section>
 
-      <mj-section padding-top="16px" padding-bottom="0">
+      <mj-section>
         <mj-column width="100%">
           <mj-text align=center font-weight="700" font-size="17px">Download the app</mj-text>
         </mj-column>
-      </mj-section>
-      <mj-section padding="0">
-        <mj-column width="50%" >
-          <mj-image align=right width="117px" src="https://ci5.googleusercontent.com/proxy/ahscyZ6mRetLcom3KorJgzqCHw0InfeNdU2K7Yk0ZxawaWyswJd5Ny0lyWOeNfgbdtI6lYJQdo4gnPCja-y0vBaB_8oPWDI-SIJpx3gkJ0vXhoOvB9EHF0TdZn1jBqq67V7yRsrrkMNH3RMvvHqyfgy9t3guVtdJvU-MS75GUUDw-3m-G1dZMe2zFCJh0uefOqpByyY0qr70N16ViW1RTQ=s0-d-e1-ft#https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1200px-Download_on_the_App_Store_Badge.svg.png"></mj-image>
+        <mj-column width="50%">
+          <mj-image align=center width="117px" src="https://ci5.googleusercontent.com/proxy/ahscyZ6mRetLcom3KorJgzqCHw0InfeNdU2K7Yk0ZxawaWyswJd5Ny0lyWOeNfgbdtI6lYJQdo4gnPCja-y0vBaB_8oPWDI-SIJpx3gkJ0vXhoOvB9EHF0TdZn1jBqq67V7yRsrrkMNH3RMvvHqyfgy9t3guVtdJvU-MS75GUUDw-3m-G1dZMe2zFCJh0uefOqpByyY0qr70N16ViW1RTQ=s0-d-e1-ft#https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1200px-Download_on_the_App_Store_Badge.svg.png"></mj-image>
         </mj-column>
-        <mj-column width="50%" >
-          <mj-image align=left width="136px" src="https://ci5.googleusercontent.com/proxy/ahscyZ6mRetLcom3KorJgzqCHw0InfeNdU2K7Yk0ZxawaWyswJd5Ny0lyWOeNfgbdtI6lYJQdo4gnPCja-y0vBaB_8oPWDI-SIJpx3gkJ0vXhoOvB9EHF0TdZn1jBqq67V7yRsrrkMNH3RMvvHqyfgy9t3guVtdJvU-MS75GUUDw-3m-G1dZMe2zFCJh0uefOqpByyY0qr70N16ViW1RTQ=s0-d-e1-ft#https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1200px-Download_on_the_App_Store_Badge.svg.png"></mj-image>
+        <mj-column width="50%">
+          <mj-image align=center width="136px" src="https://ci5.googleusercontent.com/proxy/ahscyZ6mRetLcom3KorJgzqCHw0InfeNdU2K7Yk0ZxawaWyswJd5Ny0lyWOeNfgbdtI6lYJQdo4gnPCja-y0vBaB_8oPWDI-SIJpx3gkJ0vXhoOvB9EHF0TdZn1jBqq67V7yRsrrkMNH3RMvvHqyfgy9t3guVtdJvU-MS75GUUDw-3m-G1dZMe2zFCJh0uefOqpByyY0qr70N16ViW1RTQ=s0-d-e1-ft#https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1200px-Download_on_the_App_Store_Badge.svg.png"></mj-image>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff"  padding-top="0" padding-bottom="0">
+      <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
         <mj-column width="100%">
           <mj-divider border-color="#DFE3E8" border-width="1px" />
         </mj-column>
       </mj-section>
 
-      <mj-section padding-top="16px" padding-bottom="0">
+      <mj-section>
         <mj-column width="100%">
           <mj-text font-family="Arial" font-size="12px" font-weight=400 color="rgba(51, 51, 51, 0.5);">The information in this newsletter is not intended to replace a one-on-one relationship with a qualified health care professional and is not intended as medical advice. It is intended as a sharing of knowledge and information from the research and experience of many experts and journalists. The Epoch Times encourages you to make your own health care decisions based upon your research and in partnership with a qualified health care professional.<br><br>
             *When sharing an article, giftaccess@TheEpochTimes.com is added to the list of recipients. If your friend is not already a subscriber, we will send them a special link for free access to the article. Manage your email preferences here.
@@ -239,12 +281,30 @@
             The Epoch Times. 5 Penn Plaza, 8th FL, New York, NY 10001
           </mj-text>
         </mj-column>
-        
+
       </mj-section>
-      <mj-section padding="0">
-        <mj-column >
-          <mj-text align="center" font-size="13px"><a href="#" style="color: #4D4D4D4D; text-decoration:under-line;">Terms & Condition</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color: #4D4D4D4D; text-decoration:under-line;">Customer Sevice</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color: #4D4D4D4D; text-decoration:underline;">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color:#4D4D4D4D; text-decoration:under-line;">Unsubscribe</a></mj-text>  
+      <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
+        <mj-column width="100%">
+          <mj-divider border-color="#DFE3E8" border-width="1px" />
         </mj-column>
       </mj-section>
+
+      <mj-section>
+        <mj-column width="25%">
+          <mj-text align=center font-family="Inter" font-style=normal font-size="13px" font-weight=400>Terms & Conditons</mj-text>
+        </mj-column>
+        <mj-column width="25%">
+          <mj-text align=center font-family="Inter" font-style=normal font-size="13px" font-weight=400>Customer Service</mj-text>
+        </mj-column>
+        <mj-column width="25%">
+          <mj-text align=center font-family="Inter" font-style=normal font-size="13px" font-weight=400>Privacy Policy</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="25%">
+          <mj-text align=center font-family="Inter" font-style=normal font-size="13px" font-weight=400>Unscribe</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>
